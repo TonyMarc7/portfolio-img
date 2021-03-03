@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Imagenes</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="contenedor">
+        <!--ENCABEZADO - PARTE SUPERIOR-->
+        <header>
+            <div class="logo">
+                <h1>Calendario de Imagenes</h1>
+                <p>Muestra todos tus diseños!</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Paisajes</a>
+                <a href="#">Personas</a>
+                <a href="#">Animales</a>
+            </div>
+        </header>
+        <!--CUERPO CENTRAL - IMAGENES-->
+        <section class="grid" id="grid">
+            
+            <div class="item" data-categoria='ciudades'
+            data-etiqueta='ciudades autos carros'
+            data-descripcion='1. dijfio fdgkfg foijjg ijfgjf ifjgi'>
+                <div class="item-contenido">
+                    <img src="img/ciudad1.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria='animales'
+            data-etiqueta='animal leon felino'
+            data-descripcion='2. dijfio fdgkfg foijjg ijfgjf ifjgi'>
+                <div class="item-contenido">
+                    <img src="img/animal1.png" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria='naturaleza'
+            data-etiqueta='naturaleza hojas bosque'
+            data-descripcion='3. dijfio fdgkfg foijjg ijfgjf ifjgi'>
+                <div class="item-contenido">
+                    <img src="img/naturaleza1.png" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria='paisajes'
+            data-etiqueta='mar agua montañas'
+            data-descripcion='4. dijfio fdgkfg foijjg ijfgjf ifjgi'>
+                <div class="item-contenido">
+                    <img src="img/paisaje1.png" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria='paisajes'
+            data-etiqueta='naturaleza verde montañas'
+            data-descripcion='5. dijfio fdgkfg foijjg ijfgjf ifjgi'>
+                <div class="item-contenido">
+                    <img src="img/paisaje2.png" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria='personas'
+            data-etiqueta='persona mujer chica'
+            data-descripcion='6. dijfio fdgkfg foijjg ijfgjf ifjgi'>
+                <div class="item-contenido">
+                    <img src="img/persona1.png" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <!--AMPLIAR Y CERRAR IMAGENES-->
+        <section class="resaltar" id="resaltar">
+            <div class="contenedor-img">
+                <button id="btn-cerrar"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+        
+        <footer class="contenedor">
+            <div class="redes">
+                <div class="iconos">
+                    <a href="https://twitter.com/" class="twitter" target="_blank">
+                    <i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="iconos">
+                    <a href="https://facebook.com/" class="facebook" target="_blank">
+                    <i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="iconos">
+                    <a href="https://instagram.com/" class="instagram" target="_blank">
+                    <i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="creador">
+                <p>Sitio diseñado por Tony Marcano - <a href="">tonymarc/web</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

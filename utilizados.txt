@@ -1,0 +1,8 @@
+	--Google Fonts - Para las letras
+
+	--Muuri - Forma de movimiento en Imagenes
+ 	<script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-		animations.min.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+
+	--Font Awesome - Para Iconos
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-	awesome/5.15.2/css/all.min.css">
